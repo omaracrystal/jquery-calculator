@@ -8,19 +8,36 @@ $('#cancel').on('click', function() {
   $("#screen").empty();
 });
 
-// first grab area
-// areas # 0-9 act like numbers
-// "/,x,+,-,=" act like operators <assign each value>
 
-// print to div screen
+// function calculatorButtons() {
+for (var i = 0; i < $("span").length; i++)
 
-for (var i = 0; i < $("span").length; i++) {
-  var numArray = [];
-  var operArray = [];
-  var value = $($("span")[i]).text();
-  console.log(value);
-  if typeof(parseInt(value)) === "number"
-};
+    var numArray = [];
+    var operArray = [];
+
+    var button = $($("span"[i])
+    var buttonValue = button.text()
+  // }
+
+  // if (typeof(parseInt(value)) === "number") {
+  //   numArray.push(parseInt(value));
+  //   console.log(numArray);
+  //   } else {
+  //     operArray.push(value);
+  //     console.log(operArray);
+  //   };
+
+  //   button.on('click', function() {
+  //     for (var i = 0; i < $("span").length; i++) {
+  //     $("#screen").html(value);
+  //   };
+  // };
+
+
+
+
+
+
 
 
 // for loop
